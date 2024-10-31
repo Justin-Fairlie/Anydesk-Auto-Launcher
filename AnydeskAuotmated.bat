@@ -1,6 +1,6 @@
 :loop
 
-echo Bp*Xoy$i32 | "C:/Program Files/AnyDesk/anydesk.exe" 1420240684 --with-password
+echo password | "C:/Program Files/AnyDesk/anydesk.exe" anydeskID --with-password
 timeout /t 10
 
 
