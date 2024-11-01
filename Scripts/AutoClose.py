@@ -54,7 +54,7 @@ def main():
         print("AnyDesk windows moved and maximized successfully.")
 
         # Wait for 2 minutes
-        time.sleep(120)
+        time.sleep()
 
         # Prepare the CMD command you want to execute
         cmd_command = "taskkill/im anydesk.exe"
