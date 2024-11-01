@@ -1,10 +1,8 @@
 import subprocess
-import os
-
 import time
 
-python_script_path = r"C:\Program Files (x86)\Anydesk-main\Scripts\AutoClose.py"
-batch_file_path = r"C:\Program Files (x86)\Anydesk-main\Scripts\AutoOpen.bat"
+python_script_path = r".\Scripts\AutoClose.py"
+batch_file_path = r".\Scripts\AutoOpen.bat"
 
 # Command to run the batch file in a new terminal
 batch_command = f'start cmd /k \"{batch_file_path}\"'
