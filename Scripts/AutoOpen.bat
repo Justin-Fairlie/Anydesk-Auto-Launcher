@@ -2,7 +2,7 @@
 echo password | "C:\Program Files\AnyDesk\anydesk.exe" Anydesk_ID
 if %errorlevel% neq 0 (
     echo Connection lost. Powering on remote device...
-    "C:\Program Files\AnyDesk\anydesk.exe" 1415734603 --remote-restart
+    "C:\Program Files\AnyDesk\anydesk.exe" Anydesk_ID --remote-restart
     timeout /t 1
     echo Remote device powered on. Reconnecting...
     goto loop
