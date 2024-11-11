@@ -1,5 +1,5 @@
 @echo off
-echo Bp*Xoy$i32 | "C:\Program Files\AnyDesk\anydesk.exe" 1415734603
+echo password | "C:\Program Files\AnyDesk\anydesk.exe" Anydesk_ID
 if %errorlevel% neq 0 (
     echo Connection lost. Powering on remote device...
     "C:\Program Files\AnyDesk\anydesk.exe" 1415734603 --remote-restart
